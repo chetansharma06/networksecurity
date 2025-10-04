@@ -1,0 +1,29 @@
+2025-10-03 23:34:46,105 - INFO - initiate the data ingestion
+2025-10-03 23:34:49,867 - INFO - Performed train test split on the dataframe
+2025-10-03 23:34:49,868 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-10-03 23:34:49,868 - INFO - Exporting train and test file path.
+2025-10-03 23:34:50,227 - INFO - Exported train and test file path.
+2025-10-03 23:34:50,229 - INFO - completed the data ingestion
+2025-10-03 23:34:50,281 - INFO - initiating the data validation
+2025-10-03 23:34:50,498 - INFO - Required number of columns:3
+2025-10-03 23:34:50,499 - INFO - Data frame has columns:31
+2025-10-03 23:34:50,499 - INFO - Required number of columns:3
+2025-10-03 23:34:50,500 - INFO - Data frame has columns:31
+2025-10-03 23:34:51,982 - INFO - completed the data validation
+2025-10-03 23:34:51,994 - INFO - data Transformation started
+2025-10-03 23:34:51,995 - INFO - Entered initiate_data_transformation method of DataTransformation class
+2025-10-03 23:34:51,995 - INFO - Starting data transformation
+2025-10-03 23:34:52,151 - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+2025-10-03 23:34:52,152 - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+2025-10-03 23:34:52,215 - INFO - Entered the save object method of MainUtils class
+2025-10-03 23:34:52,233 - INFO - Excited the save_object method of MainUtils class
+2025-10-03 23:34:52,233 - INFO - Entered the save object method of MainUtils class
+2025-10-03 23:34:52,263 - INFO - Excited the save_object method of MainUtils class
+2025-10-03 23:34:52,275 - INFO - data Transformation completed
+2025-10-03 23:34:52,275 - INFO - Model Training sstared
+2025-10-03 23:46:01,847 - INFO - Entered the save object method of MainUtils class
+2025-10-03 23:46:01,850 - INFO - Excited the save_object method of MainUtils class
+2025-10-03 23:46:01,851 - INFO - Entered the save object method of MainUtils class
+2025-10-03 23:46:01,924 - INFO - Excited the save_object method of MainUtils class
+2025-10-03 23:46:01,925 - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\10_03_2025_23_34_46\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9913428628951078, precision_score=0.9871692060946271, recall_score=0.9955519611807522), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9746524938675388, precision_score=0.9651821862348178, recall_score=0.9843104872006606))
+2025-10-03 23:46:01,931 - INFO - Model Training artifact created

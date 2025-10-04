@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/ML%20Projects/mlproject2/networksecurity/mlruns/0/82c347a6055e497dbec60f3945ae1448/artifacts
+end_time: 1759578512971
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82c347a6055e497dbec60f3945ae1448
+run_name: rogue-midge-366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759578505725
+status: 3
+tags: []
+user_id: ChetanSharma
